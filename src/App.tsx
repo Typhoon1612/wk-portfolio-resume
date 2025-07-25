@@ -1,18 +1,16 @@
-import { useState } from 'react'
-import './App.css'
-import Button from './components/button.tsx'
-
-interface Prop {
-
-}
+import { useState } from "react";
+import "./App.css";
+import WaterButton from "./components/WaterButton.tsx";
+import Navbar from "./sections/Navbar.tsx";
+import Body from "./sections/Body.tsx";
 
 function App() {
-
   return (
     <>
-      <Button />
+      <Navbar />
+      <Body />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
