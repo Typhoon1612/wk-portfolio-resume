@@ -1,17 +1,15 @@
 {
-  "homepage": "https://github.com/Typhoon1612/wk-portfolio-resume/",
+  "homepage": "https://Typhoon1612.github.io/wk-portfolio-resume/",
   "name": "wk-website-resume",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
