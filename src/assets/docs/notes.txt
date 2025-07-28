@@ -1,0 +1,26 @@
+*** Body Carousel Responsive ***
+import ProfilePic from "../components/ProfilePicture.tsx";
+import Introduction from "../components/Introduction.tsx";
+
+function Body() {
+  return (
+    <div
+      className="section-1-background overflow-x-auto scroll-smooth snap-x snap-mandatory 
+                    md:overflow-visible md:snap-none"
+    >
+      <div className="flex flex-row pt-[100px] md:pt-[190px] w-[100%] md:w-full lg:flex-row ">
+        {/* Slide 1: ProfilePic */}
+        <div className="w-full md:w-1/2 flex-shrink-0 snap-start flex items-center justify-center p-6">
+          <ProfilePic />
+        </div>
+
+        {/* Slide 2: Introduction */}
+        <div className="w-full md:w-1/2 flex-shrink-0 snap-start flex items-center justify-center p-6">
+          <Introduction />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Body;

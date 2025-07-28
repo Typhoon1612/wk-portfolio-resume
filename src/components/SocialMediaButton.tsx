@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import type { ReactNode } from "react";
 
 interface Props {
     imgLink: string,
@@ -10,7 +9,7 @@ function SocialMediaButton({imgLink, socialMediaLink} : Props) {
   return (
     <>
       <motion.div
-        className="w-[80px] text-black shadow-black shadow-md border-white border-[3px]"
+        className="w-[50px] sm:w-[100px] text-black shadow-black shadow-md border-white border-[2px] sm:border-[5px] xl:border-[8px] place-items-center"
         initial={{
           scale: 1,
         }}

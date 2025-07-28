@@ -3,7 +3,7 @@ import Introduction from "../components/Introduction.tsx";
 
  function Body () {
      return (
-       <div className="section-1-background flex items-center pl-[15vh] pt-[10vh] gap-[150px] ">
+       <div className="section-1-background flex-row place-items-center md:items-center md:flex justify-center pl-[0vh] md:pl-[10vh] pt-[20vh] md:pt-[8vh] gap-[50px] lg:gap-[150px] xl:gap-[250px] ">
          <ProfilePic />
          <Introduction />
        </div>
@@ -11,3 +11,4 @@ import Introduction from "../components/Introduction.tsx";
 }
 
 export default Body
+
