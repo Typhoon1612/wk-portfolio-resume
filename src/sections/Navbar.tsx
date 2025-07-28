@@ -1,6 +1,7 @@
 import WaterButton from "../components/WaterButton";
-import wkPirateLogo from "../assets/wkPirateLogo.png";
-import downloadIcon from "../assets/downloadIcon.svg";
+import wkPirateLogo from "../assets/images/wkPirateLogo.png";
+import downloadIcon from "../assets/images/downloadIcon.svg";
+import resume from "../assets/docs/resume.pdf";
 
 function Navbar() {
   return (
@@ -12,12 +13,14 @@ function Navbar() {
 
         {/* Button */}
         <div>
-          <WaterButton>
-            <div className="flex justify-between gap-[5px] items-center">
-              <img src={downloadIcon} alt="Wk_Pirates_Logo" className="w-8" />
-              <p>Resume</p>
-            </div>
-          </WaterButton>
+          <a href={resume} download="Wing_Kian_Resume.pdf">
+            <WaterButton>
+              <div className="flex justify-between gap-[5px] items-center">
+                <img src={downloadIcon} alt="Wk_Pirates_Logo" className="w-8" />
+                <p>Resume</p>
+              </div>
+            </WaterButton>
+          </a>
         </div>
       </nav>
     </>

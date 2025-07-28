@@ -1,5 +1,3 @@
-//import ProfilePic from "../assets/profilePic.jpg";
-import YellowPaper from "../assets/yellowPaper.png";
 import ProfilePic from "../components/ProfilePicture.tsx";
 import Introduction from "../components/Introduction.tsx";
 

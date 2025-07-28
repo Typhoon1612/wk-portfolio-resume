@@ -1,4 +1,4 @@
-import ProfilePic from "../assets/profilePic.jpg";
+import ProfilePic from "../assets/images/profilePic.jpg";
 import { motion } from "framer-motion";
 
 function ProfilePicture() {

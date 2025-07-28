@@ -1,5 +1,12 @@
-import github from "../assets/github.png";
-import instagram from "../assets/instagram.png";
+// Images and Files
+import github from "../assets/images/github.png";
+import instagram from "../assets/images/instagram.png";
+import linkedIn from "../assets/images/linkedIn.png";
+
+// React Files
+import SocialMediaButton from "./SocialMediaButton";
+
+// Extensions
 import { motion } from "framer-motion";
 
 function Introduction() {
@@ -16,47 +23,26 @@ function Introduction() {
         {/* Buttons */}
         <div className="pl-[50px] flex gap-[60px]">
           {/* Github */}
-          <motion.div
-            className="w-[80px] text-black shadow-black shadow-md border-white border-[3px]"
-            initial={{
-              scale: 1,
-            }}
-            whileHover={{
-              scale: 1.2,
-            }}
-            whileTap={{
-              scale: 0.95,
-            }}
-          >
-            <a
-              href="https://github.com/Typhoon1612"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={github} alt="github" className="p-[5px]"/>
-            </a>
-          </motion.div>
+          <SocialMediaButton
+            imgLink={github}
+            socialMediaLink={"https://github.com/Typhoon1612"}
+          />
+        
           {/* Instagram */}
-          <motion.div
-            className="w-[80px] text-black shadow-black shadow-md border-white border-[3px]"
-            initial={{
-              scale: 1,
-            }}
-            whileHover={{
-              scale: 1.2,
-            }}
-            whileTap={{
-              scale: 0.95,
-            }}
-          >
-            <a
-              href="https://www.instagram.com/brushforfreedom?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={instagram} alt="instgram" className="p-[5px]"/>
-            </a>
-          </motion.div>
+          <SocialMediaButton
+            imgLink={linkedIn}
+            socialMediaLink={
+              "https://l1nk.dev/9LQEY"
+            }
+          />
+
+          {/* Instagram */}
+          <SocialMediaButton
+            imgLink={instagram}
+            socialMediaLink={
+              "https://acesse.one/3T3co"
+            }
+          />
         </div>
       </div>
     </>
