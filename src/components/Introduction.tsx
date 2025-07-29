@@ -11,7 +11,7 @@ import SocialMediaButton from "./SocialMediaButton";
 function Introduction() {
   return (
     <>
-      <div className="flex flex-col gap-[50px] z-20 pt-[10vh]">
+      <div className="flex flex-col gap-[50px] z-20">
         <div className="flex flex-col ">
           <p className="text-shadow-lg font-bold text-3xl lg:text-6xl text-center md:text-start">Hi, I am</p>
           <h1 className="text-white text-5xl lg:text-9xl  font-black text-shadow-lg custom-outline text-center md:text-start">
