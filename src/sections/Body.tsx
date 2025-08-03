@@ -3,8 +3,11 @@ import Introduction from "../components/Introduction.tsx";
 import Sky from "../assets/images/sky.png";
 import Sea from "../assets/images/underTheSea.png";
 import { Parallax } from "react-parallax";
+import Skills from "../components/Skills.tsx";
+
 
 function Body() {
+
   return (
     <>
       <Parallax
@@ -29,7 +32,9 @@ function Body() {
         bgImageStyle={{ height: "100vh", width: "100%", objectFit: "cover",}}
         bgImage={Sea}
       >
-        <div className="h-screen">My Name</div>
+        <div className="h-screen">
+          <Skills />
+        </div>
       </Parallax>
     </>
   );

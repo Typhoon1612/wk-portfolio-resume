@@ -1,15 +1,29 @@
 import ProfilePic from "../assets/images/profilePic.jpg";
-import { motion } from "framer-motion";
+
+import { easeOut, motion, useAnimation, useInView } from "framer-motion";
+import { useEffect, useRef } from "react";
 
 function ProfilePicture() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
+  const mainControls = useAnimation();
+
+  useEffect(() => {
+    if (isInView) {
+      mainControls.start("visible");
+    }
+  });
   return (
     <motion.div
+      ref={ref}
       className="flex w-[20vh] h-[30vh] md:w-[40vh] md:h-auto min-w-[15vh] bg-white items-center justify-center shadow-black shadow-md"
-      initial={{
-        rotate: "0deg",
-        opacity: 0,
+      variants={{
+        hidden: { rotate: "0deg", opacity: 0 },
+        visible: { rotate: "-10deg", opacity: 1 },
       }}
-      animate={{ rotate: "-10deg", opacity: 1 }}
+      initial="hidden"
+      animate={mainControls}
       transition={{ duration: 2 }}
     >
       <img

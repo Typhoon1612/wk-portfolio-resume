@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import "../App.css";
+import "../../App.css";
 import { motion } from "framer-motion";
 
 interface Props {
