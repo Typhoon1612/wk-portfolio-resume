@@ -5,9 +5,8 @@ interface props {
   imgLink: string;
 }
 
-function SkillBtnDrop({imgLink} : props) {
-  const btnCSS =
-    " bg-blue-400 skill-drop place-items-center content-center";
+function SkillBtnDrop({ imgLink }: props) {
+  const btnCSS = "bg-blue-400 skill-drop flex items-center justify-center";
   return (
     <div className={btnCSS}>
       <img
