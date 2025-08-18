@@ -10,6 +10,7 @@ function ProfilePicture() {
   const mainControls = useAnimation();
 
   useEffect(() => {
+    console.log('PP' + isInView)
     if (isInView) {
       mainControls.start("visible");
     }

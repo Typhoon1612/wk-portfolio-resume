@@ -5,7 +5,6 @@ import Body from "./sections/Body.tsx";
 function App() {
   return (
     <>
-      <Navbar />
       <Body />
     </>
   );

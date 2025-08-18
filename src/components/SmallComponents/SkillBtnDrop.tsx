@@ -11,7 +11,7 @@ function SkillBtnDrop({ imgLink }: props) {
     <div className={btnCSS}>
       <img
         src={imgLink}
-        alt="UnityPic"
+        alt="Pic"
         className=" w-[45px] h-[45px] md:w-[60px] md:h-[60px]"
         style={{ transform: "rotate(10deg)" }}
       />

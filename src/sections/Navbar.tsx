@@ -1,12 +1,12 @@
 import WaterButton from "../components/SmallComponents/WaterButton";
 import wkPirateLogo from "../assets/images/wkPirateLogo.png";
-import downloadIcon from "../assets/images/downloadIcon.png";
+import downloadIcon from "../assets/images/downloadIcon.svg";
 import resume from "../assets/docs/resume.pdf";
 
 function Navbar() {
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 flex justify-between items-center px-[10px] lg:px-20 pt-5 h-auto bg-transparent z-50 min-w-50">
+      <nav className="flex justify-between items-center px-[10px] lg:px-20 pt-5 h-auto bg-transparent z-50 min-w-50">
         {/* Logo */}
 
         <img
@@ -23,7 +23,7 @@ function Navbar() {
                 <img
                   src={downloadIcon}
                   alt="Wk_Pirates_Logo"
-                  className="w-[10px] opacity-0 md:w-8 md:opacity-100"
+                  className="w-[4px] opacity-0 md:w-8 lg:opacity-100"
                 />
                 <p className="">Resume</p>
               </div>
