@@ -9,14 +9,12 @@ import wkMagazine from "../assets/images/portfolios/wk_magazine.jpg";
 import oniPotatoLogo from "../assets/images/portfolios/OniPotato.png";
 import eceStampCard from "../assets/images/portfolios/ECE Stamp Card.png";
 import bffOne from "../assets/images/portfolios/Brush_For_Freedom_PSD.png";
-import bffTwo from "../assets/images/portfolios/Brush_For_Freedom_PSD_1.png";
 import allasGame from "../assets/images/portfolios/Allas_Game_Logo.png";
 import wkPiratesLogo from "../assets/images/portfolios/wk_pirates.png";
 import rentosiruLogo from "../assets/images/portfolios/Rentosiru.png";
 import chicChutOne from "../assets/images/portfolios/ChiC Cut with Words.png";
-import chicCutTwo from "../assets/images/portfolios/Chic Cut.png";
 
-import { easeIn, easeOut, motion, useAnimation, useInView } from "framer-motion";
+import { easeIn, motion, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
 
 const images = [
@@ -31,12 +29,10 @@ const images = [
   oniPotatoLogo,
   eceStampCard,
   bffOne,
-  bffTwo,
   allasGame,
   wkPiratesLogo,
   rentosiruLogo,
   chicChutOne,
-  chicCutTwo,
 ];
 
 function PinterestLayout() {
