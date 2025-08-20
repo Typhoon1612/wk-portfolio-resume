@@ -25,7 +25,7 @@ function ProfilePicture() {
       }}
       initial="hidden"
       animate={mainControls}
-      transition={{ duration: 2 }}
+      transition={{ duration: 2 , ease: easeOut}}
     >
       <img
         src={ProfilePic}
