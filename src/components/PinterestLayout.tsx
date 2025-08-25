@@ -12,7 +12,9 @@ import bffOne from "../assets/images/portfolios/Brush_For_Freedom_PSD.png";
 import allasGame from "../assets/images/portfolios/Allas_Game_Logo.png";
 import wkPiratesLogo from "../assets/images/portfolios/wk_pirates.png";
 import rentosiruLogo from "../assets/images/portfolios/Rentosiru.png";
-import chicChutOne from "../assets/images/portfolios/ChiC Cut with Words.png";
+import chicCutOne from "../assets/images/portfolios/ChiC Cut with Words.png";
+import eceMerdekaPoster from "../assets/images/portfolios/Ece_Merdeka_Poster.png";
+
 
 import { easeIn, motion, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
@@ -32,7 +34,8 @@ const images = [
   allasGame,
   wkPiratesLogo,
   rentosiruLogo,
-  chicChutOne,
+  chicCutOne,
+  eceMerdekaPoster
 ];
 
 function PinterestLayout() {
