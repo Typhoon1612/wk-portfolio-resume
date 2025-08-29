@@ -14,6 +14,7 @@ import wkPiratesLogo from "../assets/images/portfolios/wk_pirates.png";
 import rentosiruLogo from "../assets/images/portfolios/Rentosiru.png";
 import chicCutOne from "../assets/images/portfolios/ChiC Cut with Words.png";
 import eceMerdekaPoster from "../assets/images/portfolios/Ece_Merdeka_Poster.png";
+import chocSundae from "../assets/images/portfolios/Chocolate Sundae.png";
 
 
 import { easeIn, motion, useAnimation, useInView } from "framer-motion";
@@ -35,7 +36,8 @@ const images = [
   wkPiratesLogo,
   rentosiruLogo,
   chicCutOne,
-  eceMerdekaPoster
+  eceMerdekaPoster,
+  chocSundae
 ];
 
 function PinterestLayout() {
