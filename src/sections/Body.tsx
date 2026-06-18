@@ -45,11 +45,11 @@ function Body() {
 
       {/* Skills */}
       <Parallax
-        strength={800}
-        bgImageStyle={{ height: "100vh", width: "100%", objectFit: "cover" }}
+        strength={400}
+        bgImageStyle={{ minHeight: "100%", width: "100%", objectFit: "cover" }}
         bgImage={Sea}
       >
-        <div className="h-screen">
+        <div className="pb-[80px] md:pb-[120px]">
           <Skills />
         </div>
       </Parallax>
